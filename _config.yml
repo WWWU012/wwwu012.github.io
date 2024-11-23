@@ -12,7 +12,7 @@ title                    : "Weiwei's homepage"
 title_separator          : "-"
 name                     : &name "Weiwei Wu"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://wwwu012.github.io"
+url                      : https://wwwu012.github.io # the base hostname & protocol for your site e.g. "https://wwwu012.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "wwwu012/wwwu012.github.io"
 
