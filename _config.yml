@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Weiwei Wu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : # "Short biography for the left-hand sidebar"
   location         : "San Diego, California"
   employer         : "University of California, San Diego"
   uri              : # URL
