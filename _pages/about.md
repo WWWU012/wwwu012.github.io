@@ -10,6 +10,7 @@ redirect_from:
 
 ## About Me
 I am a PhD candidate in Mathematics with a specialization in Statistics at the University of California, San Diego, advised by [Professor Jelena Bradic](http://www.jelenabradic.net). 
+Prior to my PhD, I earned an M.A. in Statistics from Boston University in 2019 and a B.S. in Mathematics from Nankai University in 2017.
 
 ## Research Interests
 - Causal inference  
