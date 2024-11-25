@@ -14,8 +14,8 @@
   
   @include clearfix();
   margin-bottom: 1em;
-   width: 350px; /* Wider sidebar for default view */
-    max-width: 350px; /* Limit maximum width */
+   width: 400px; /* Wider sidebar for default view */
+    max-width: 400px; /* Limit maximum width */
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
@@ -25,14 +25,14 @@
 //    padding-left: 20px;  
   }
    
-   @media screen and (max-width: 768px) {
-        width: 90%; /* Adjust sidebar width for smaller screens */
-        padding: 10px; /* Reduce padding */
-    }
-       /* Adjust for very small screens */
-    @media screen and (max-width: 480px) {
-        width: 95%; /* Keep a smaller sidebar for extra small screens */
-    }
+  //  @media screen and (max-width: 768px) {
+  //       width: 90%; /* Adjust sidebar width for smaller screens */
+  //       padding: 10px; /* Reduce padding */
+  //   }
+  //      /* Adjust for very small screens */
+  //   @media screen and (max-width: 480px) {
+  //       width: 95%; /* Keep a smaller sidebar for extra small screens */
+  //   }
 
    
 
@@ -48,7 +48,8 @@
   }
 
   @include breakpoint($x-large) {
-    max-width: $sidebar-link-max-width * 1.5;
+    //max-width: $sidebar-link-max-width ;
+    max-width: 320px;
     padding-right: 0;
   }
 
@@ -81,13 +82,16 @@
   @include breakpoint($large) {
     position: relative;
     float: right;
-    width: $right-sidebar-width-narrow * 2;
+     width: $right-sidebar-width-narrow;
+    //width: 500 pt;
     margin-left: span(0.5 of 12);
     z-index: 10;
   }
 
   @include breakpoint($x-large) {
-    width: $right-sidebar-width * 2;
+     width: $right-sidebar-width;
+    //width: 500 pt;
+
   }
 }
 
