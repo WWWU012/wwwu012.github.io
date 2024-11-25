@@ -302,7 +302,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jemoji
+  # - jemoji
 
 # Mimic GitHub Pages with --safe
 whitelist:
