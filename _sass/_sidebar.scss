@@ -21,14 +21,18 @@
   }
    
    @media screen and (max-width: 768px) {
-        width: 90%; /* Adjust sidebar width for smaller screens */
+        width: 80%; /* Adjust sidebar width for smaller screens */
         padding: 10px; /* Reduce padding */
+    }
+       /* Adjust for very small screens */
+    @media screen and (max-width: 480px) {
+        width: 90%; /* Keep a smaller sidebar for extra small screens */
     }
 
    
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    @include span(3 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -39,7 +43,7 @@
   }
 
   @include breakpoint($x-large) {
-    max-width: $sidebar-link-max-width;
+    max-width: $sidebar-link-max-width * 1.5;
     padding-right: 0;
   }
 
@@ -69,13 +73,13 @@
   @include breakpoint($large) {
     position: relative;
     float: right;
-    width: $right-sidebar-width-narrow;
+    width: $right-sidebar-width-narrow * 1.5;
     margin-left: span(0.5 of 12);
     z-index: 10;
   }
 
   @include breakpoint($x-large) {
-    width: $right-sidebar-width;
+    width: $right-sidebar-width * 1.5;
   }
 }
 
