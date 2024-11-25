@@ -13,7 +13,7 @@
   @include clearfix();
   margin-bottom: 1em;
    width: 400px; /* Wider sidebar for default view */
-    max-width: 420px; /* Limit maximum width */
+    max-width: 400px; /* Limit maximum width */
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
