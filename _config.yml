@@ -301,8 +301,8 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-sitemap
-  # - jemoji
+  # - jekyll-sitemap
+  - jemoji
 
 # Mimic GitHub Pages with --safe
 whitelist:
