@@ -19,6 +19,13 @@
     position: fixed;
     padding-top: $masthead-height;
   }
+   
+   @media screen and (max-width: 768px) {
+        width: 90%; /* Adjust sidebar width for smaller screens */
+        padding: 10px; /* Reduce padding */
+    }
+
+   
 
   @include breakpoint($large) {
     @include span(2 of 12);
@@ -124,8 +131,19 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
-  font-size: $type-size-5;
+    font-family: $sans-serif;
+    font-size: $type-size-5;
+    white-space: normal; /* Allow wrapping */
+    word-wrap: break-word; /* Handle long words */
+    text-overflow: unset; /* Ensure full text is displayed */
+    overflow: visible; /* Allow content to overflow naturally */
+
+    @media screen and (max-width: 768px) {
+        font-size: $type-size-6; /* Smaller font size for smaller screens */
+    }
+}
+.sidebar {
+    overflow-x: auto; /* Enable horizontal scroll for overflow content */
 }
 
 .sidebar .author__desktop {
