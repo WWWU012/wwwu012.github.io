@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Introduction"
+title: "Welcome!"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,5 +8,15 @@ redirect_from:
 ---
 
 
-I am a PhD student in Mathematics with a Specialization in Statistics at University of California San Diego, advised by Prof. Jelena Bradic. 
+## About Me
+I am a PhD candidate in Mathematics with a specialization in Statistics at the University of California, San Diego, advised by [Professor Jelena Bradic](http://www.jelenabradic.net). 
 
+## Research Interests
+- Causal inference  
+- Machine learning  
+- Data-driven policy learning  
+- Heterogeneous treatment effect estimation
+
+## Contact
+Email: wew012 (at) ucsd.edu
+  
