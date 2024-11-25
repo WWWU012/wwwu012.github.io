@@ -170,6 +170,10 @@
 
 .author__bio {
   margin: 0;
+   word-wrap: break-word; /* Break long words if necessary */
+  white-space: normal;   /* Allow text to wrap to the next line */
+  overflow-wrap: anywhere; /* Break text anywhere if no whitespace is present */
+
 
   @include breakpoint($large) {
     margin-top: 10px;
