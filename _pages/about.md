@@ -29,17 +29,18 @@ Prior to my PhD, I earned an M.A. in Statistics from Boston University in 2019 a
 **Python** -->
 
 
-<div style="display: flex; justify-content: left; gap: 20px;">
+<div style="display: flex; justify-content: left; align-items: flex-end;gap: 20px;">
   <div style="text-align: center;">
     <img src="../images/python-logo-1-300x300.jpg" alt="Python Logo" width="100" height="100">
     <p><strong>Python</strong></p>
   </div>
   <div style="text-align: center;">
-    <img src="../images/Rlogo.png" alt="HTML5 Logo" width="100" height="100">
+    <img src="../images/Rlogo.jpg" alt="SQL Logo" width="100" height="100" >
     <p><strong>R </strong></p>
   </div>
     <div style="text-align: center;">
-    <img src="../images/sqllogo.png" alt="HTML5 Logo" width="100" height="100">
+    <img src="../images/SQLlogo.png" 
+    alt="SQLLogo" width="100" height="100">
     <p><strong>SQL </strong></p>
   </div>
 </div>
