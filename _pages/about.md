@@ -1,24 +1,25 @@
 ---
 permalink: /
-title: "Welcome!"
+title: " "
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+<div style="text-align: center; margin-top: 20px;">
+  <h1 style="font-size: 4em; font-family: 'Playfair Display', serif; color: #1a202c;">
+    Weiwei Wu
+  </h1>
+</div>
 
 ## About Me
 I am a PhD candidate in Mathematics with a specialization in Statistics at the University of California, San Diego, advised by [Professor Jelena Bradic](http://www.jelenabradic.net). 
 Prior to my PhD, I earned an M.A. in Statistics from Boston University in 2019 and a B.S. in Mathematics from Nankai University in 2017.
 
-## Research Interests
-- Causal inference  
-- Machine learning  
-- Data-driven policy learning  
-- Heterogeneous treatment effect estimation
 
-## Skills
+
+
 
 
 <!-- | ![Python](../images/python-logo-1-300x300.jpg) | 
@@ -29,7 +30,7 @@ Prior to my PhD, I earned an M.A. in Statistics from Boston University in 2019 a
 **Python** -->
 
 
-<div style="display: flex; justify-content: left; align-items: flex-end;gap: 20px;">
+<!-- <div style="display: flex; justify-content: left; align-items: flex-end;gap: 20px;">
   <div style="text-align: center;">
     <img src="../images/python-logo-1-300x300.jpg" alt="Python Logo" width="100" height="100">
     <p><strong>Python</strong></p>
@@ -43,7 +44,7 @@ Prior to my PhD, I earned an M.A. in Statistics from Boston University in 2019 a
     alt="SQLLogo" width="100" height="100">
     <p><strong>SQL </strong></p>
   </div>
-</div>
+</div> -->
 
 
 <!-- 
